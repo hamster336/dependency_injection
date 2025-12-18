@@ -1,16 +1,7 @@
 # di_demo_project
 
-A new Flutter project.
+This project uses the concept of dependency injection. 
 
-## Getting Started
+A RatingCubit class extending the Cubit Class is injected at the application root using BlocProvider. This separates the business logic and View as the required dependency is created elsewhere and provided to the required widget using the providers, and allows the widgets to access the cubits wihtout creating them.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This is a basic project where the cubit is used to upvote Bloc or Cubit on the press of an button. 
